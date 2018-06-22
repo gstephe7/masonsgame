@@ -159,19 +159,13 @@ function drawCanvas() {
       ctx.drawImage(trisha, trishax, trishay);
     }
 
-    drawTrisha();
-
     function drawGreg() {
       ctx.drawImage(gregrt, gregx, gregy);
     }
 
-    drawGreg();
-
     function drawMason() {
       ctx.drawImage(masonrt, masonx, masony);
     }
-
-    drawMason();
 
     function moveGreg() {
       if (gregx > 450) {
@@ -208,7 +202,6 @@ function drawCanvas() {
     }
 
     function drawCookieDough() {
-      //ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.drawImage(cookieDough, cookieDoughx, cookieDoughy);
     }
 
@@ -245,8 +238,6 @@ function drawCanvas() {
       drawApple();
       drawSushi();
     }
-
-    drawGems();
 
     function resetCookieDough() {
       cookieDoughx = Math.random() * 600;
